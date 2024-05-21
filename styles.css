@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styles de l'en-tête */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles de la section des matières */
+section.matières {
+  background-color: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+}
+
+section.matières h2 {
+  color: #333;
+}
+
+section.matières ul li {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+section.matières ul li:hover {
+  background-color: #f9f9f9;
+}
+
+/* Styles du pied de page */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

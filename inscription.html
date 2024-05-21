@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page d'inscription de mon site</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>École Islamique Al-Huda</h1>
+    <nav>
+      <ul>
+        <li><a href="Accueil.html">Accueil</a></li>
+        <li><a href="matières.html">Matières</a></li>
+        <li><a href="inscription.html">Inscription</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="inscription">
+    <h2>Inscription</h2>
+    <form id="inscription-form" action="enregistrer.php" method="POST">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Mot de passe :</label>
+      <input type="password" id="password" name="password" required>
+      
+      <input type="submit" value="S'inscrire">
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2022 École Islamique Al-Huda. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
